@@ -1,0 +1,219 @@
+{"intents": [
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Maaf, saya tidak mengerti apa yang kamu maksud.", 
+        "Maaf, untuk saat ini chatbot ini belum dapat menjawab pertanyaan kamu."],
+     "context": [""]
+    },
+    {"tag": "greeting1",
+     "patterns": ["halo"],
+     "responses": ["Halo, Ada yang bisa saya bantu?"],
+     "context": [""]
+    },
+    {"tag": "greeting2",
+        "patterns": ["hello"],
+        "responses": ["Hello, Ada yang bisa saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "greeting3",
+        "patterns": ["hai"],
+        "responses": ["Hai, Ada yang bisa saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "greeting4",
+        "patterns": ["selamat pagi"],
+        "responses": ["Selamat Pagi, Ada yang bisa saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "greeting5",
+        "patterns": ["selamat siang"],
+        "responses": ["Selamat Siang, Ada yang bisa saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "greeting6",
+        "patterns": ["selamat sore"],
+        "responses": ["Selamat Sore, Ada yang bisa saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "greeting_malam",
+        "patterns": ["selamat malam", "selamat malem"],
+        "responses": ["Selamat Malam, Ada yang bisa saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "cacar air",
+        "patterns": ["cacar air"],
+        "responses": ["Infeksi yang disebabkan oleh virus Varicella-zoster. Sebagian besar kasusnya terjadi pada anak-anak di bawah usia 12 tahun. Penyakit ini juga dapat terjadi pada orang dewasa yang belum pernah terinfeksi. Ketika dialami oleh orang dewasa, umumnya gejala dari cacar air akan lebih parah. "],
+        "context": [""]
+    },
+    {"tag": "cacar monyet",
+        "patterns": ["cacar monyet"],
+        "responses": ["Penyakit yang dapat menular dari hewan ke manusia atau dari manusia ke manusia."],
+        "context": [""]
+    },
+    {"tag": "campak",
+        "patterns": ["campak"],
+        "responses": ["enyakit yang disebabkan oleh infeksi virus pada saluran pernapasan."],
+        "context": [""]
+    },
+    {"tag": "gejala1",
+        "patterns": ["gejala penyakit cacar air"],
+        "responses": ["Demam yang berlangsung 3-5 hari dan biasanya kurang dari 39 °C, Kehilangan selera makan, Nyeri otot atau sendi."],
+        "context": [""]
+    },
+    {"tag": "gejala2",
+        "patterns": ["gejala cacar air"],
+        "responses": ["Demam yang berlangsung 3-5 hari dan biasanya kurang dari 39 °C, Kehilangan selera makan, Nyeri otot atau sendi."],
+        "context": [""]
+    },
+    {"tag": "gejala3",
+        "patterns": ["gejala penyakit cacar monyet"],
+        "responses": ["Pembengkakan kelenjar getah bening, yang ditandai dengan benjolan di leher, ketiak, atau selangkangan, Demam, Menggigil"],
+        "context": [""]
+    },
+    {"tag": "gejala4",
+        "patterns": ["gejala cacar monyet"],
+        "responses": ["Pembengkakan kelenjar getah bening, yang ditandai dengan benjolan di leher, ketiak, atau selangkangan, Demam, Menggigil"],
+        "context": [""]
+    },
+    {"tag": "gejala5",
+        "patterns": ["gejala penyakit campak"],
+        "responses": ["Demam, Pilek, Pegal linu, Lemas, Hidung tersumbat, Diare."],
+        "context": [""]
+    },
+    {"tag": "gejala6",
+        "patterns": ["gejala campak"],
+        "responses": ["Demam, Pilek, Pegal linu, Lemas, Hidung tersumbat, Diare."],
+        "context": [""]
+    },
+    {"tag": "cegah1",
+        "patterns": ["pencegahan penyakit cacar air"],
+        "responses": ["Jaga kebersihan kulit, Minum obat antivirus, Vaksinasi, Rutin mengganti pakaian"],
+        "context": [""]
+    },
+    {"tag": "cegah2",
+        "patterns": ["pencegahan cacar air"],
+        "responses": ["Jaga kebersihan kulit, Minum obat antivirus, Vaksinasi, Rutin mengganti pakaian"],
+        "context": [""]
+    },
+    {"tag": "cegah3",
+        "patterns": ["pencegahan penyakit cacar monyet"],
+        "responses": ["Mencuci tangan menggunakan air dan sabun atau hand sanitizer, Tidak kontak langsung dengan hewan liar atau memakan dagingnya, Memasak daging sampai benar-benar matang."],
+        "context": [""]
+    },
+    {"tag": "cegah4",
+        "patterns": ["pencegahan cacar monyet"],
+        "responses": ["Mencuci tangan menggunakan air dan sabun atau hand sanitizer, Tidak kontak langsung dengan hewan liar atau memakan dagingnya, Memasak daging sampai benar-benar matang."],
+        "context": [""]
+    },
+    {"tag": "cegah5",
+        "patterns": ["pencegahan penyakit campak"],
+        "responses": ["Banyak minum air putih, Minum obat pereda demam, seperti paracetamol atau ibuprofen, Mengonsumsi suplemen vitamin A, sesuai saran dokter."],
+        "context": [""]
+    },
+    {"tag": "cegah6",
+        "patterns": ["pencegahan campak"],
+        "responses": ["Banyak minum air putih, Minum obat pereda demam, seperti paracetamol atau ibuprofen, Mengonsumsi suplemen vitamin A, sesuai saran dokter."],
+        "context": [""]
+    },
+    {"tag": "obat1",
+        "patterns": ["pengobatan penyakit cacar air"],
+        "responses": ["Hindari makanan asin atau pedas, Konsumsi obat penghilang rasa sakit, Minum banyak cairan, lebih disukai air, untuk mencegah dehidrasi."],
+        "context": [""]
+    },
+    {"tag": "obat2",
+        "patterns": ["pengobatan cacar air"],
+        "responses": ["Hindari makanan asin atau pedas, Konsumsi obat penghilang rasa sakit, Minum banyak cairan, lebih disukai air, untuk mencegah dehidrasi."],
+        "context": [""]
+    },
+    {"tag": "obat3",
+        "patterns": ["pengobatan penyakit cacar monyet"],
+        "responses": ["Memaksimalkan waktu istirahat, Mencukupi kebutuhan cairan dan nutrisi serta Menjaga pola makan sehat."],
+        "context": [""]
+    },
+    {"tag": "obat4",
+        "patterns": ["pengobatan cacar monyet"],
+        "responses": ["Memaksimalkan waktu istirahat, Mencukupi kebutuhan cairan dan nutrisi serta Menjaga pola makan sehat."],
+        "context": [""]
+    },
+    {"tag": "obat5",
+        "patterns": ["pengobatan penyakit campak"],
+        "responses": ["Mandi dengan air hangat, Membersihkan kotoran atau kerak di mata dengan kapas yang dibasahi air hangat bersih, Mandi dengan air hangat."],
+        "context": [""]
+    },
+    {"tag": "obat6",
+        "patterns": ["pengobatan campak"],
+        "responses": ["Mandi dengan air hangat, Membersihkan kotoran atau kerak di mata dengan kapas yang dibasahi air hangat bersih, Mandi dengan air hangat."],
+        "context": [""]
+    },
+    {"tag": "obat7",
+        "patterns": ["obat penyakit cacar air"],
+        "responses": ["Antihistamin, Losion kalamin, Paracetamol, Obat antivirus, Obat antibiotik. "],
+        "context": [""]
+    },
+    {"tag": "obat8",
+        "patterns": ["obat cacar air"],
+        "responses": ["Antihistamin, Losion kalamin, Paracetamol, Obat antivirus, Obat antibiotik."],
+        "context": [""]
+    },
+    {"tag": "obat9",
+        "patterns": ["obat penyakit cacar monyet"],
+        "responses": ["Minum obat antibiotik yang diresepkan dokter, Minum obat penghilang rasa sakit atau penurun demam."],
+        "context": [""]
+    },
+    {"tag": "obat10",
+        "patterns": ["obat cacar monyet"],
+        "responses": ["Minum obat antibiotik yang diresepkan dokter, Minum obat penghilang rasa sakit atau penurun demam."],
+        "context": [""]
+    },
+    {"tag": "obat11",
+        "patterns": ["obat penyakit campak"],
+        "responses": [" Suplemen vitamin A, Parasetamol, Air perasan lemon, Air kelapa"],
+        "context": [""]
+    },
+    {"tag": "obat12",
+        "patterns": ["obat campak"],
+        "responses": ["Suplemen vitamin A, Parasetamol, Air perasan lemon, Air kelapa"],
+        "context": [""]
+    },
+    {"tag": "sebab1",
+        "patterns": ["penyebab penyakit cacar air "],
+        "responses": ["Virus yang menjadi penyebab cacar air adalah Varicella zoster (VZV). Virus Varicella zoster ini bisa menyebar melalui kontak langsung dengan penderita, seperti: Bersentuhan dengan lepuhan atau lenting yang terdapat cairan."],
+        "context": [""]
+    },
+    {"tag": "sebab2",
+        "patterns": ["penyebab cacar air"],
+        "responses": ["Virus yang menjadi penyebab cacar air adalah Varicella zoster (VZV). Virus Varicella zoster ini bisa menyebar melalui kontak langsung dengan penderita, seperti: Bersentuhan dengan lepuhan atau lenting yang terdapat cairan."],
+        "context": [""]
+    },
+    {"tag": "sebab3",
+        "patterns": ["penyebab penyakit cacar monyet"],
+        "responses": ["Penyakit ini terjadi akibat infeksi virus, yang merupakan bagian dari Orthopoxvirus. Para ilmuwan pertama kali mendeteksi penyakit ini akibat adanya wabah yang berasal dari monyet yang digunakan untuk penelitian."],
+        "context": [""]
+    },
+    {"tag": "sebab4",
+        "patterns": ["penyebab cacar monyet"],
+        "responses": ["Penyakit ini terjadi akibat infeksi virus, yang merupakan bagian dari Orthopoxvirus. Para ilmuwan pertama kali mendeteksi penyakit ini akibat adanya wabah yang berasal dari monyet yang digunakan untuk penelitian."],
+        "context": [""]
+    },
+    {"tag": "sebab5",
+        "patterns": ["penyebab penyakit campak"],
+        "responses": ["Penyakit ini disebabkan oleh virus paramyxovirus yang sangat menular, Menyentuh barang yang terkontaminasi virus juga bisa menyebabkan Anda mengalami penyakit ini."],
+        "context": [""]
+    },
+    {"tag": "sebab6",
+        "patterns": ["penyebab campak"],
+        "responses": ["Penyakit ini disebabkan oleh virus paramyxovirus yang sangat menular, Menyentuh barang yang terkontaminasi virus juga bisa menyebabkan Anda mengalami penyakit ini."],
+        "context": [""]
+    },
+    {"tag": "penutup4",
+        "patterns": ["baik, baiklah"],
+        "responses": ["Senang telah membantu anda"],
+        "context": [""]
+    },
+    {"tag": "penutup5",
+        "patterns": ["terima kasih"],
+        "responses": ["Senang telah membantu anda"],
+        "context": [""]
+    }  
+]
+}
