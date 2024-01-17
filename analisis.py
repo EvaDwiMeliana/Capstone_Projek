@@ -11,15 +11,15 @@ df_sudah_stemming = pd.read_csv("C:/Users/Rafidatus Salsabilah/OneDrive/Document
 content_isi = df_sudah_stemming[~df_sudah_stemming["content_clean"].isnull()]
 
 # Hilangkan kata "tokopedia" dan "aplikasi"
-stopwords_tokped = ["tokopedia", "aplikasi"]
+stopwords_tokped = ["trove", "aplikasi"]
 
-def clean_tokped(text):
+def clean_trove(text):
     temp = text.split() # split words
     temp = [w for w in temp if not w in stopwords_tokped] # remove stopwords
     temp = " ".join(word for word in temp) # join all words
     return temp
 
-content_isi["content_clean_tanpax"] = content_isi["content_clean"].apply(clean_tokped)
+content_isi["content_clean_tanpax"] = content_isi["content_clean"].apply(clean_trove)
 
 
 # TF-IDF ----------

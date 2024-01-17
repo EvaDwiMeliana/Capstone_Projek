@@ -2,19 +2,32 @@
 <html>
 
     <head>
-        <title>Analisis Sentimen Tokopedia</title>
+        <title>Analisis Sentimen Skin Detection</title>
         <link rel="stylesheet" type="text/css" href="/static/css/style2.css">
     </head>
 
     <body>
         
 
-        <div class="container">
-            <h1>Analisis Sentimen dari Ulasan Aplikasi Tokopedia</h1>
-
+        <div class="container"> 
+            <h1>Analisis Sentimen dari Ulasan Aplikasi Skin Detection</h1>
+            <div class="container-fluid sticky-top">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav">
+                                <a href="/" class="nav-item nav-link ">Home</a>
+                                <a href="/deteksi" class="nav-item nav-link active">Deteksi</a>
+                                <a href="/chatbot" class="nav-item nav-link">Chatbot</a>
+                                <a href="/analisis" class="nav-item nav-link">Analisis Sentimen</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             <div class="banner">
+
             </div>
-            
+
             <form method="POST" class="form">
                 <label for="input-data">Ulasan: </label>
                 <input type="textextra" name="input-data" placeholder="Tuliskan ulasan Anda">
@@ -26,8 +39,19 @@
                 <p id="output-text">Sentimen dari ulasan tersebut adalah: <b>{{ data }}</b></p>
             </div>
 
-        </div>
 
+        </div>
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/static/css/boostrap.min.css"></script>
+<script src="/static/css/boostrap.min.css"></script>
+<script src="/static/css/boostrap.min.css"></script>
+<script src="/static/css/boostrap.min.css"></script>
+<script src="/static/css/boostrap.min.css"></script>
+
+<!-- Template Javascript -->
+<script src="/static/js/main2.js"></script>
     </body>
 
 </html>
